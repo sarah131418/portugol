@@ -1,0 +1,26 @@
+/*instituição: Etec Vasco Antonio Verchiarutti
+ * arquivo: notas.por
+ * autor: Sarah Aurea B. Freitas
+ * data: 20/03
+ * descrição: Ler 4 notas, calcular a média ponderada com os pesos 1, 2, 3 e 4
+respectivamente e exibir as notas e o resultado da média.
+ */
+
+programa
+{
+	
+	funcao inicio()
+	{
+		real n1, n2, n3, n4, nfinal
+		escreva("Nota 1:")
+		leia(n1)
+		escreva("Nota 2:")
+		leia(n2)
+		escreva("Nota 3:")
+		leia(n3)
+		escreva("Nota 4:")
+		leia(n4)
+		nfinal = (n1*1 + n2*2 + n3*3 + n4*4)/ (1+2+3+4)
+		escreva("A sua media foi igual a  ", nfinal)
+	}
+}
