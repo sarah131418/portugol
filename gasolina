@@ -1,0 +1,21 @@
+/*instituição: Etec Vasco Antonio Verchiarutti
+ * arquivo: notas.por
+ * autor: Sarah Aurea B. Freitas
+ * data: 20/03
+ * descrição: O motorista de aplicativo abastece o tanque do seu carro com um determinado valor em reais. 
+ * Ler o preço do litro de combustível e o valor que pretende abastecer. Calcular a quantidade de litro no abastecimento e exibir os dados lidos e o valor calculado.
+ */
+programa
+{
+	
+	funcao inicio()
+	{
+		real valor_gasolina, preco_gasolina, qdt_final
+		escreva("Qual é o valor do combustivel?")
+		leia(valor_gasolina)
+		escreva("Quantos reais vai abastecer?")
+		leia(preco_gasolina)
+		qdt_final = preco_gasolina/ valor_gasolina
+		escreva("O quanto ira abastecer e ", qdt_final, "litros")
+	}
+}
