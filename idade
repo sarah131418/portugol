@@ -1,0 +1,25 @@
+/*
+* Instituição: EtecVAV - Vasco Antonio Vechiarutti
+*
+* Arquivo: idade.por
+* Data: 24/03/2026
+* Autor: Sarah Aurea B freitas
+* Descrição: Ler o nome e a idade do usuário. Calcular a idade em meses e dias. Exibir o nome e a idade em anos, meses e dias.
+*/
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia nome
+		inteiro idade_anos, meses, dias
+		escreva("Escreva seu nome: ")
+		leia(nome)
+		escreva("Escreva sua idade: ")
+		leia(idade_anos)
+		meses = idade_anos * 12
+		dias = idade_anos * 365
+		escreva("A idade em meses e igual a ", meses)
+		escreva("A idade em dias e ", dias)
+	}
+}
